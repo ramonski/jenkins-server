@@ -13,6 +13,7 @@ info "Adding needed packages..."
 apt-get install -q -y vim | tee -a $log
 apt-get install -q -y screen | tee -a $log
 apt-get install -q -y git | tee -a $log
+apt-get install -q -y python-pip | tee -a $log
 
 # Jenkins Installation
 info "Adding Jenkins key to system..."
